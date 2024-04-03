@@ -10,7 +10,7 @@ import H15 from '../components/1/H15';
 export default function Home() {
     return (
         <ScrollView>
-            <View style={{ flex: 1, paddingTop: 20 }}>
+            <View style={{ flex: 1 }}>
             <H11/>
             <H12/>  
             <H13/>

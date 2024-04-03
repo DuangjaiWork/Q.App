@@ -11,7 +11,7 @@ const posts = [
 ];
 
 const Item = ({ item }) => (
-        <View style={{ backgroundColor : 'grey', opacity : 0.5, borderTopLeftRadius : 10, borderTopRightRadius : 10}}>
+        <View style={{ backgroundColor : 'grey', opacity : 0.4}}>
             <View style={{ flexDirection : 'row', marginLeft : 10, marginVertical : 10}}>
                 <View style={{alignItems : 'flex-start', backgroundColor : 'white', borderRadius : 10, height : 100, width : 420, shadowColor : '#black', elevation:10, paddingLeft :20, flexDirection : 'row'}}>
                     <Image style={{ width: 60, height: 60, borderRadius: 60 / 2 , marginTop : 20}} source={{uri : item.image}}/>
