@@ -57,7 +57,7 @@ export default function User() {
         <Text style={styles.label}>Email:</Text>
         <TextInput
           style={styles.input}
-          onChangeText={(text) => setEmail(parseString(text))}
+          onChangeText={(text) => setEmail(text)}
           value={Email.toString()}
         />
       </View>
@@ -66,7 +66,7 @@ export default function User() {
         <Text style={styles.label}>Birth:</Text>
         <TextInput
           style={styles.input}
-          onChangeText={(text) => setBirth(parseString(text))}
+          onChangeText={(text) => setBirth(text)}
           value={Birth.toString()}
         />
       </View>
@@ -75,7 +75,7 @@ export default function User() {
         <Text style={styles.label}>Country:</Text>
         <TextInput
           style={styles.input}
-          onChangeText={(text) => setCountry(parseString(text))}
+          onChangeText={(text) => setCountry(text)}
           value={Country.toString()}
         />
       </View>
@@ -85,11 +85,11 @@ export default function User() {
         <TextInput
           style={styles.input}
           keyboardType="numeric"
-          onChangeText={(text) => setPhone(parseInt(text))}
+          onChangeText={(text) => setPhone(text)}
           value={Phone.toString()}
         />
       </View>
-      <TouchableOpacity>
+      <TouchableOpacity onPress={()=>{ save();}}>
         <View style={{ borderRadius: 5, backgroundColor : '#343434', marginTop : 10}}>
           <Text style={{ fontSize : 20, color : 'white', textAlign : 'center', marginVertical : 10}}>Save</Text>
         </View>

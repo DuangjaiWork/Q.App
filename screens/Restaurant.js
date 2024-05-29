@@ -11,11 +11,11 @@ export default function Home() {
     return (
         <ScrollView>
             <View style={{ flex: 1, paddingTop: 20, backgroundColor : 'ECECEC' }}>
-            <R11/>
-            <R12/>
-            <R13/>
-            <R14/>
-            <R15/>
+                <R11/>
+                <R12/>
+                <R13/>
+                <R14/>
+                <R15/>
             </View>
         </ScrollView>
     );

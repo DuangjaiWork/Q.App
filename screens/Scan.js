@@ -1,16 +1,14 @@
 import React from 'react';
-import { ScrollView,  View, Text} from 'react-native';
-import { FontAwesome } from "@expo/vector-icons";
-import { useNavigation } from "@react-navigation/native";
+import { View } from 'react-native';
+
+import S11 from '../components/5/S11';
+import S12 from '../components/5/S12';
 
 export default function Home() {
-    const navigation = useNavigation();
     return (
-        <ScrollView>
-            <View style={{ flex : 1 , flexDirection : 'row', backgroundColor : 'white' , height : 100}}>
-                <Text style={{ fontSize : 30, color : 'black', alignSelf : 'center', paddingLeft : 170}}>QR code</Text>
-            </View>
-            <Text style={{ fontSize : 30, color : 'gray', alignSelf : 'center', paddingTop : 280}}>Camera Access</Text>
-        </ScrollView>
+        <View style={{ flex: 1 }}>
+            <S11/>
+            <S12/>
+        </View>
     );
 }
