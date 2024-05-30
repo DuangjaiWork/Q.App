@@ -44,7 +44,7 @@ export default function Post() {
     const [refresh, setRefresh] = useState(false);
 
     return (
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1, paddingTop : 20 }}>
             <FlatList
                 data={posts}
                 refreshing={refresh}

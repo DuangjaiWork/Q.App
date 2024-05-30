@@ -6,7 +6,7 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 export default function U11() {
     const navigation = useNavigation();
     return (
-        <View style={{backgroundColor : '#3C3C3C', height : 150 }}>
+        <View style={{ backgroundColor : '#3C3C3C', height : 150 }}>
             <View style={{ flexDirection: "row", padding: 25}}>
                 <Image style={{ width: 80, height: 80, marginLeft : 10, marginTop : 10}} source={require("../../assets/profile.jpg")} />
                 <View style={{ paddingLeft: 20, marginTop : 15}}>

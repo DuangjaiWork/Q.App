@@ -10,7 +10,7 @@ import R15 from '../components/2/R15';
 export default function Home() {
     return (
         <ScrollView>
-            <View style={{ flex: 1, paddingTop: 20, backgroundColor : 'ECECEC' }}>
+            <View style={{ flex: 1, backgroundColor : 'ECECEC' }}>
                 <R11/>
                 <R12/>
                 <R13/>

@@ -7,7 +7,7 @@ import U12 from '../components/4/U12';
 export default function Home() {
     return (
         <ScrollView>
-            <View style={{ flex: 1, paddingTop: 20, backgroundColor : 'ECECEC' }}>
+            <View style={{ flex: 1, backgroundColor : 'ECECEC' }}>
             <U11/>
             <U12/>
             </View>
